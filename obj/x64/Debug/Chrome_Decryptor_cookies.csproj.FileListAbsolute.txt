@@ -1,0 +1,16 @@
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\bin\x64\Debug\Chrome_Decryptor_cookies.exe.config
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\bin\x64\Debug\Chrome_Decryptor_cookies.exe
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\bin\x64\Debug\Chrome_Decryptor_cookies.pdb
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\bin\x64\Debug\EntityFramework.xml
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\bin\x64\Debug\EntityFramework.SqlServer.xml
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\bin\x64\Debug\System.Data.SQLite.xml
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\obj\x64\Debug\Chrome_Decryptor_cookies.csproj.AssemblyReference.cache
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\obj\x64\Debug\Chrome_Decryptor_cookies.csproj.SuggestedBindingRedirects.cache
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\obj\x64\Debug\Chrome_Decryptor_cookies.csproj.CoreCompileInputs.cache
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\obj\x64\Debug\Chrome_Decryptor_cookies.csproj.CopyComplete
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\obj\x64\Debug\Chrome_Decryptor_cookies.exe
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\obj\x64\Debug\Chrome_Decryptor_cookies.pdb
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\obj\x64\Debug\Chrome_Decryptor_cookies.csproj.Fody.CopyLocal.cache
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\obj\x64\Debug\Chrome_Decryptor_cookies.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\hmamd\source\repos\Chrome_Decryptor_cookies\bin\x64\Debug\websocket-sharp.xml
