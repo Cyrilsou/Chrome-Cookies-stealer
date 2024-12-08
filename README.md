@@ -59,7 +59,7 @@ The tool includes a configuration dictionary (`CONFIGS`) specifying paths to the
 
 1. Set webhook in the webhook line 
  ```c#
-   var response = await client.PostAsync("https://discordapp.com/api/webhooks/1308546230552367154/DlExX-i3vC5ThAkCKfAHNKfDb3hJSegMQYKpGMaWHAxBru2ELvDMydR4RTyVPm_mAKfM", form);
+   var response = await client.PostAsync("Your Webhook", form);
  ```
  
  2. compile the project
